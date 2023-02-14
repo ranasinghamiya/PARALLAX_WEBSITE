@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:"Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #17d272;
+}
+.pimg1{
+background-image: url(images/306-3069434_car-full-screen-hd.jpg);
+min-height: 100%;
+
+}
+.pimg2{
+    background-image: url(images/3cc00c569e09cc9e5abe7621cc036da6--black-wallpaper-hd-wallpaper.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/634049.webp);
+    min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: pink transparent;
+    
+    color: blue;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
